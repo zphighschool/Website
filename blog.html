@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZPHS Sawargaon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Smooth scrolling effect */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    /* Optional: Make table rows look clickable */
+    .event-table tbody tr {
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+    .event-table tbody tr:hover {
+      background: #f0f9ff;
+    }
+  </style>
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="Logo1.jpeg.jpg" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+          <li><a href="Faculty.html">FACULTY</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h3>Programs Conducted in ZPHS</h3>
+  </section>
+
+  <!-- ----Blog page content---- -->
+  <section class="blog-content">
+    <div class="row">
+      <div class="blog-center">
+        <img src="annual.jpg" alt="Annual Event">
+        <h2>Programs Conducted in ZPHS🎉</h2>
+
+        <!-- Added Events Table with clickable rows -->
+        <table class="event-table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Event</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>1</td><td><a href="#teachers-day">Teachers Day</a></td></tr>
+            <tr><td>2</td><td><a href="#independence-day">Independence Day</a></td></tr>
+            <tr><td>3</td><td><a href="#republic-day">Republic Day</a></td></tr>
+            <tr><td>4</td><td><a href="#yoga-day">Yoga Day</a></td></tr>
+            <tr><td>5</td><td><a href="#shivjayanti">Shivjayanti</a></td></tr>
+            <tr><td>6</td><td><a href="#school-day">School Day</a></td></tr>
+          </tbody>
+        </table>
+
+        <!-- Event Details Sections with IDs -->
+        <div class="event-detail" id="teachers-day">
+          <h3>1. Teachers Day</h3>
+          <img src="teachers_day.jpg" alt="Teachers Day">
+          <p>Z.P. High School, Sawargaon celebrated Teachers’ Day with great enthusiasm and respect. The program began with lighting of the lamp and offering tributes to 
+            Dr. Sarvepalli Radhakrishnan. Students expressed their gratitude through speeches, songs, and cultural performances dedicated to their beloved teachers.
+             Games and fun activities were also organized for teachers, making the day joyful.</p>
+        </div>
+
+        <div class="event-detail" id="independence-day">
+          <h3>2. Independence Day</h3>
+          <img src="independence.jpg" alt="Independence Day">
+          <p>Z.P. High School, Sawargaon celebrated Independence Day with pride and patriotism. The program began with the hoisting of the National Flag followed by the 
+            National Anthem. Students presented patriotic songs, speeches, and cultural performances to honor the freedom fighters. The atmosphere was filled with the spirit of unity and devotion to the nation.</p>
+        </div>
+
+        <div class="event-detail" id="republic-day">
+          <h3>3. Republic Day</h3>
+          <img src="republic_day.jpg" alt="Republic Day">
+          <p>The program began with the hoisting of the National Flag by the chief guest, followed by the National Anthem. Students showcased patriotic songs, dances, and
+             speeches highlighting the importance of the Constitution and the sacrifices of our leaders. Teachers delivered inspiring messages about unity, equality, and
+              responsibility. The entire school was filled with the spirit of pride and nationalism. The event concluded with the distribution of sweets and a vote of thanks.</p>
+        </div>
+
+        <div class="event-detail" id="yoga-day">
+          <h3>4. Yoga Day</h3>
+          <img src="yoga3.jpg" alt="Yoga Day">
+          <p>The program began with a brief introduction on the importance of yoga for a healthy body and mind. Teachers and students actively participated in performing various yoga
+             asanas under the guidance of instructors. The celebration emphasized the role of yoga in daily life for stress relief and overall well-being. Students also presented speeches 
+             and slogans promoting the theme “Yoga for Harmony and Peace.” The event concluded with a pledge to practice yoga regularly.</p>
+        </div>
+
+        <div class="event-detail" id="shivjayanti">
+          <h3>5. Shivjayanti</h3>
+          <img src="shivjayanti.jpg" alt="Shivjayanti">
+          <p>the birth anniversary of Chhatrapati Shivaji Maharaj, with great pride and devotion. The program began with garlanding the portrait of Shivaji Maharaj and offering tributes. 
+            Students presented speeches, songs, and powadas highlighting the bravery, leadership, and ideals of the great Maratha king. Cultural performances showcased the rich history and 
+            values taught by Shivaji Maharaj. Teachers inspired students to follow his principles of courage, justice, and discipline. The celebration concluded with the spirit of patriotism and respect for our history.</p>
+        </div>
+
+        <div class="event-detail" id="farewell-day">
+          <h3>6. Farewell Day</h3>
+          <img src="farewell.jpg" alt="Farewell Day">
+          <p>Z.P. High School, Sawargaon celebrated Farewell Day with mixed emotions of joy and nostalgia. The event began with a warm welcome to the outgoing students by juniors and teachers. 
+            Students expressed their memories and gratitude towards the school through speeches, songs, and cultural performances. Teachers shared words of encouragement and blessings for the bright 
+            future of the students. Juniors presented gifts and organized fun activities to make the day memorable. The program ended with heartfelt goodbyes, group photographs, and best wishes for the next journey of life.</p>
+        </div>
+      </div>
+      <!-- ==== Videos Section ==== -->
+<section class="video-section">
+  <h2>🎬 Event Videos</h2>
+
+  <!-- Republic Day Parade -->
+  <div class="video-card">
+    <h3>Republic Day Parade🪖</h3>
+    <video controls>
+      <source src="Republic_day_parade.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- The Drill -->
+  <div class="video-card">
+    <h3>The Drill🧘🏻</h3>
+    <video controls>
+      <source src="the_drill.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Independence Day Performance -->
+  <div class="video-card">
+    <h3>Independence Day Performance🥳</h3>
+    <video controls>
+      <source src="Independence _day_performance.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Powada Presentation -->
+  <div class="video-card">
+    <h3>Powada Presentation🔥</h3>
+    <video controls>
+      <source src="Powada_presentation.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Cultural Dance Performance 1 -->
+  <div class="video-card">
+    <h3>Cultural Dance Performance (1)🎊</h3>
+    <video controls>
+      <source src="Cultural_dance_performance1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Cultural Dance Performance 2 -->
+  <div class="video-card">
+    <h3>Cultural Dance Performance (2)✨</h3>
+    <video controls>
+      <source src="Cultural_dance_performance2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Science Exhibition (Vacuum Cleaner) -->
+  <div class="video-card">
+    <h3>Science Exhibition (Vacuum Cleaner)🧹</h3>
+    <video controls>
+      <source src="Vaccum_cleaner.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Science Exhibition (Road using Plastic) -->
+  <div class="video-card">
+    <h3>Science Exhibition ( Plastic Road)🛣️</h3>
+    <video controls>
+      <source src="Plastic_road.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Oratory Competition -->
+  <div class="video-card">
+    <h3>Oratory Competition🎤</h3>
+    <video controls>
+      <source src="Oratory_competition.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</section>
+
+  </section>
+
+  <footer class="big-footer">
+  <div class="footer-container">
+    
+    <!-- About Section -->
+    <div class="footer-section about">
+      <h2>🏫 Z.P. High School Sawargaon</h2>
+      <p>Shaping Bright Futures, One Student at a Time ✨📚.<br> 
+      Our mission is to empower young minds through knowledge, creativity, and discipline🧠.</p>
+    </div>
+
+    <!-- Important Links -->
+    <div class="footer-section links">
+      <h2>Important Links🔗</h2>
+      <ul>
+        <li><a href="https://mahasscboard.in" target="_blank">Maharashtra SSC Board</a></li>
+        <li><a href="https://epathshala.nic.in" target="_blank">ePathshala</a></li>
+        <li><a href="https://ebalbharati.in" target="_blank">Balbharati</a></li>
+        <li><a href="https://diksha.gov.in" target="_blank">DIKSHA Portal</a></li>
+        <li><a href="https://scholarships.gov.in" target="_blank">Scholarship Portal</a></li>
+        <li><a href="https://skillindia.gov.in" target="_blank">Skill India Portal</a></li>
+        <li><a href="https://education.gov.in" target="_blank">Ministry of Education</a></li>
+      </ul>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-section quick-links">
+      <h2>Quick Links⚡</h2>
+      <ul>
+        <li><a href="gallery.html">📸 Gallery</a></li>
+         <li><a href="news.html">📰 News</a></li>
+        <li><a href="about.html">ℹ️ About</a></li>
+        <li><a href="blog.html">📝 Blog</a></li>
+        <li><a href="course.html">📖 Courses</a></li>
+        <li><a href="faculty.html">👩‍🏫 Faculty</a></li>
+        <li><a href="contact.html">☎️ Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="footer-section contact">
+      <h2>Contact Us☎️</h2>
+      <p>📍 Sawargaon, Tuljapur, Maharashtra, India</p>
+      <p>📞 +91 9021952462</p>
+      <p>✉ aadityapawar5622@gmail.com</p>
+    </div>
+
+    <!-- Follow Us Section -->
+    <div class="follow-us">
+      <h3>Follow Us🔔</h3>
+      <a href="https://www.facebook.com/जि.प.प्रशाला सावरगाव" target="_blank" class="social-icon">
+        <i class="fab fa-facebook-f"></i> Facebook
+      </a>
+      <a href="https://www.instagram.com/mr._aditya_.07" target="_blank" class="social-icon">
+        <i class="fab fa-instagram"></i> Instagram
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; 2025 Z.P. High School Sawargaon | Designed with ❤️ by Unknown</p>
+  </div>
+</footer>
+
+<!-- Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
